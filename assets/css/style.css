@@ -162,6 +162,10 @@ button {
   margin: auto;
 }
 
+.ul-footer .ul-container {
+  max-width: calc(clamp(90%, 61.48vw, 1170px) + var(--container-space-x));
+}
+
 .ul-inner-container {
   margin: 0 clamp(15px, 10.25vw, 195px);
 }
@@ -205,7 +209,7 @@ button {
 }
 
 .logo {
-  width: clamp(55px, 6.53vw, 100px);
+  width: clamp(155px, 16.53vw, 200px);
 }
 
 .ul-bs-row {
@@ -2795,7 +2799,7 @@ button {
 }
 
 .ul-footer-about {
-  max-width: clamp(300px, 19.97vw, 380px);
+  max-width: clamp(450px, 19.97vw, 380px);
 }
 
 .ul-footer-about>* {
