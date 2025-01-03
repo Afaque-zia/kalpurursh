@@ -219,7 +219,7 @@ button {
 
 .ul-inner-page-container {
   --container-space-x: 30px;
-  max-width: calc(clamp(1000px, 74.09vw, 1410px) + var(--container-space-x));
+  max-width: calc(clamp(1000px, 88.09vw, 1410px) + var(--container-space-x));
   padding-left: calc(var(--container-space-x) / 2);
   padding-right: calc(var(--container-space-x) / 2);
   margin: auto;
@@ -1307,6 +1307,7 @@ button {
   display: inline-block;
   width: 100%;
 }
+
 
 .ul-header--home.sticky {
   background-color: var(--ul-secondary);
@@ -3049,10 +3050,10 @@ button {
   position: relative;
   font-weight: 400;
   font-size: clamp(15px, 0.95vw, 18px);
-  margin-bottom: clamp(3px, 0.32vw, 6px);
-  display: flex;
+  margin-bottom: clamp(3px, 1.32vw, 16px);
+  /* display: flex;
   align-items: center;
-  gap: clamp(10px, 0.79vw, 15px);
+  gap: clamp(10px, 0.79vw, 15px); */
 }
 
 .ul-inner-about-list li i {
