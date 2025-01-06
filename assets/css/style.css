@@ -2978,7 +2978,7 @@ button {
 }
 
 .ul-why-choose-us-heading-descr {
-  font-size: clamp(12px, 0.79vw, 15px);
+  font-size: clamp(16px, 0.79vw, 15px);
   margin-top: clamp(8px, 0.74vw, 14px);
   margin-bottom: clamp(14px, 1.16vw, 22px);
 }
@@ -4282,7 +4282,7 @@ button {
 
 .ul-hiw-step-descr {
   margin-bottom: 0;
-  font-size: clamp(13px, 0.84vw, 16px);
+  font-size: clamp(15px, 0.84vw, 16px);
   color: #6C6E76;
 }
 
