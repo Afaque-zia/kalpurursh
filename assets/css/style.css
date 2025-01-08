@@ -1408,9 +1408,6 @@ button {
   max-width: 70%;
 }
 
-.ul-banner-slide-title.large {
-  font-size: clamp(30px, 4.25vw, 100px);
-}
 
 @media screen and (max-width: 991px) {
   .ul-banner-slide-title {
