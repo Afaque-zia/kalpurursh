@@ -25,13 +25,14 @@
     </div>
 
 
+
     <!-- SIDEBAR SECTION START -->
     <div class="ul-sidebar">
         <!-- header -->
         <div class="ul-sidebar-header">
             <div class="ul-sidebar-header-logo">
-                <a href="index.html">
-                    <img src="assets/img/logo-dark.svg" alt="logo" class="logo">
+                <a href="/">
+                    <img src="assets/img/logo.png?var=01" style="width:110px" alt="logo" class="logo">
                 </a>
             </div>
             <!-- sidebar closer -->
@@ -39,6 +40,8 @@
         </div>
 
         <div class="ul-sidebar-header-nav-wrapper d-block d-lg-none"></div>
+
+        <p class="ul-sidebar-descr d-none d-lg-flex">Your Trusted Partner in Property Solutions.</p>
 
 
 
@@ -55,7 +58,6 @@
         </div>
     </div>
     <!-- SIDEBAR SECTION END -->
-
 
 
 
@@ -108,99 +110,91 @@
         <!-- BREADCRUMB SECTION START -->
         <div class="ul-breadcrumb">
             <div class="wow animate__fadeInUp">
-                <h2 class="ul-breadcrumb-title">Contact</h2>
+                <h2 class="ul-breadcrumb-title">Property Actions Center</h2>
                 <div class="ul-breadcrumb-nav">
                     <a href="index.html">Home</a>
                     <span class="separator"><i class="flaticon-aro-left"></i></span>
-                    <span class="current-page">Contact</span>
+                    <span class="current-page">Property Portal</span>
                 </div>
             </div>
         </div>
         <!-- BREADCRUMB SECTION END -->
 
-
-        <!-- CONTACT SECTION START -->
-        <div class="ul-inner-page-content-wrapper">
+        <div class="ul-inner-page-content-wrapper" id="postproperty">
             <div class="ul-inner-page-container">
-                <div class="ul-contact">
-                    <div class="row g-0">
-                        <!-- contact infos -->
-                        <div class="col-md-5">
-                            <div class="ul-contact-infos-wrapper">
-                                <div class="heading">
-                                    <h3 class="ul-contact-infos-title">Contact Information</h3>
-                                    <span class="ul-contact-infos-sub-title">Feel free to contact us!</span>
-                                </div>
+                <!-- heading -->
 
-                                <!-- infos -->
-                                <div class="ul-contact-infos">
-                                    <a href="tel:+918597978485" class="ul-contact-info"><i
-                                            class="flaticon-telephone"></i> +91 8597978485</a>
-                                    <a href="tel:+918967059426" class="ul-contact-info"><i
-                                            class="flaticon-telephone"></i> +91 8967059426</a>
-                                    <a href="mailto:infokalpurush@yahoo.com" class="ul-contact-info"><i
-                                            class="flaticon-mail"></i> infokalpurush@yahoo.com</a>
-                                    <div class="ul-contact-info">
-                                        <i class="flaticon-location-pin"></i>
-                                        <span class="txt">FE-477, Sector-3, Saltlake, Bidhannagar, Kolkata, West
-                                            Bengal.
-                                        </span>
-                                    </div>
-                                    <div class="ul-contact-info">
-                                        <i class="flaticon-location-pin"></i>
-                                        <span class="txt">G-IV/4, Commercial Estate, City Centre, Durgapur, West Bengal.
-                                        </span>
-                                    </div>
-                                </div>
+                <!-- body -->
+                <div class="ul-project-details-body">
+                    <div class="row gy-5">
+                        <!-- left -->
+                        <div class="col-lg-8">
 
-                                <!-- socials -->
-                                <div class="ul-contact-socials">
-                                    <a href="#"><i class="flaticon-twitter-1"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
-                                    <a href="#"><i class="flaticon-linkedin"></i></a>
-                                </div>
+
+                            <!-- Add a review -->
+                            <div
+                                class="mt-5 ul-project-details-block ul-project-details-sidebar ul-project-details-review-form-wrapper wow animate__fadeIn">
+                                <h3 class="ul-project-details-title">Post Your Property</h3>
+                                <form class="ul-project-details-review-form wow animate__fadeInUp">
+
+
+                                    <div class="row row-cols-2 row-cols-xxs-1 ul-bs-row">
+                                        <div class="form-group">
+                                            <input type="text" name="review-name" id="review-name"
+                                                placeholder="Your Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" name="review-email" id="review-email"
+                                                placeholder="Your Email">
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <div class="review-highlight-point">
+                                                <select name="highlight-point" id="highlight-point">
+                                                    <option value="1">Customer Support</option>
+                                                    <option value="2">Flexibility</option>
+                                                    <option value="3">Design Quality</option>
+                                                    <option value="4">Feature Availability</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <textarea name="review-message" id="review-message"
+                                                placeholder="Your Review"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="ul-btn"><i class="flaticon-house-1"></i> Submit
+                                            Message</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
 
-                        <!-- form -->
-                        <div class="col-md-7">
-                            <div class="ul-contact-form-wrapper">
-                                <form action="#">
+                        <!-- right sidebar -->
+                        <div class="col-lg-8 pt-5 " id="rentbuysale">
+                            <div class="mt-5 ul-project-details-sidebar wow animate__fadeInUp">
+                                <h3 class="ul-project-details-sidebar-title">Rent - Buy - Sale</h3>
+
+                                <form action="#" class="ul-project-details-owner-contact-form">
                                     <div class="form-group">
-                                        <label for="contact-first-name">First Name</label>
-                                        <input type="text" name="contact-first-name" id="contact-first-name"
-                                            placeholder="John">
+                                        <input type="text" name="name" id="name" placeholder="Name*">
                                     </div>
-
                                     <div class="form-group">
-                                        <label for="contact-last-name">Last Name</label>
-                                        <input type="text" name="contact-last-name" id="contact-last-name"
-                                            placeholder="Doe">
+                                        <input type="tel" name="phone" id="phone" placeholder="Phone*">
                                     </div>
-
                                     <div class="form-group">
-                                        <label for="contact-email">Email</label>
-                                        <input type="email" name="contact-email" id="contact-email"
-                                            placeholder="demo@realestics.com">
+                                        <input type="email" name="email" id="email" placeholder="Email*">
                                     </div>
-
                                     <div class="form-group">
-                                        <label for="contact-phone">Phone Number</label>
-                                        <input type="tel" name="contact-phone" id="contact-phone"
-                                            placeholder="+1 012 3456 789">
+                                        <textarea name="message" id="message" placeholder="Message"></textarea>
                                     </div>
-
-                                    <div class="form-group m-0 p-0">
-
-                                    </div>
-
                                     <div class="form-group">
-                                        <label for="contact-message">Message</label>
-                                        <textarea name="contact-message" id="contact-message"
-                                            placeholder="Write Message"></textarea>
+                                        <button class="ul-btn">Submit Now</button>
                                     </div>
-
-                                    <button class="ul-btn">Send Message</button>
                                 </form>
                             </div>
                         </div>
@@ -208,14 +202,8 @@
                 </div>
             </div>
         </div>
-        <!-- CONTACT SECTION END -->
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.638008924073!2d88.41253261098154!3d22.580305732602202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275f8455b95ed%3A0xbb5e564d2b11f4e3!2sFE%20477!5e1!3m2!1sen!2sin!4v1736321279240!5m2!1sen!2sin"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            class="ul-contact-map"></iframe>
 
     </main>
-
 
 
     <!-- FOOTER SECTION START -->
@@ -250,8 +238,8 @@
 
                             <div class="ul-footer-widget-links">
                                 <a href="#">infokalpurush@yahoo.com</a>
-                                <a href="#">+91 8597978485</a>
-                                <a href="#">+91 8967059426</a>
+                                <a href="#">+91 9876543210</a>
+                                <a href="#">+91 0123456789</a>
                             </div>
                         </div>
                         <div class="ul-footer-widget">
@@ -318,9 +306,7 @@
 
     <!-- custom JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/tab.js"></script>
 </body>
-
-
-<!-- Mirrored from realestics.temptics.com/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Dec 2024 12:52:17 GMT -->
 
 </html>
