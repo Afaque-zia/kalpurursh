@@ -5717,4 +5717,11 @@ button {
   margin-top: clamp(-301px, -15.82vw, -60px);
 }
 
+.ul-project-details-review-form input.custom-input {
+  padding: 0px;
+  height: auto;
+  border: none;
+  border-radius: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
