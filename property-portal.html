@@ -128,9 +128,7 @@
                 <div class="ul-project-details-body">
                     <div class="row gy-5">
                         <!-- left -->
-                        <div class="col-lg-8">
-
-
+                        <div class="col-lg-6">
                             <!-- Add a review -->
                             <div
                                 class="mt-5 ul-project-details-block ul-project-details-sidebar ul-project-details-review-form-wrapper wow animate__fadeIn">
@@ -140,43 +138,96 @@
 
                                     <div class="row row-cols-2 row-cols-xxs-1 ul-bs-row">
                                         <div class="form-group">
-                                            <input type="text" name="review-name" id="review-name"
-                                                placeholder="Your Name">
+                                            <input type="text" name="review-name" id="review-name" placeholder="Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="number" name="review-phone" id="review-phone"
+                                                placeholder="Phone">
                                         </div>
 
                                         <div class="form-group">
                                             <input type="email" name="review-email" id="review-email"
-                                                placeholder="Your Email">
+                                                placeholder="Email">
                                         </div>
 
-                                        <div class="form-group col-12">
+                                        <div class="form-group">
+                                            <input type="location" name="review-location" id="review-location"
+                                                placeholder="Location">
+                                        </div>
+
+                                        <div class="form-group">
                                             <div class="review-highlight-point">
                                                 <select name="highlight-point" id="highlight-point">
-                                                    <option value="1">Customer Support</option>
-                                                    <option value="2">Flexibility</option>
-                                                    <option value="3">Design Quality</option>
-                                                    <option value="4">Feature Availability</option>
+                                                    <option value="1">Property Type</option>
+                                                    <option value="2">Residential Property</option>
+                                                    <option value="3">Commercial Property</option>
+                                                    <option value="4">Hospitality Property</option>
+                                                    <option value="4">Transferable Development Rights (TDR)</option>
                                                 </select>
                                             </div>
                                         </div>
 
+                                        <div class="form-group">
+                                            <input type="number" name="expected-price" id="expected-price"
+                                                placeholder="Expected Price">
+                                        </div>
+
                                         <div class="form-group col-12">
                                             <textarea name="review-message" id="review-message"
-                                                placeholder="Your Review"></textarea>
+                                                placeholder="Description Box"></textarea>
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <input type="file" name="expected-price" class="custom-input"
+                                                id="expected-price" placeholder="Upload Image">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <button type="submit" class="ul-btn"><i class="flaticon-house-1"></i> Submit
-                                            Message</button>
+                                            Property</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-
                         <!-- right sidebar -->
-                        <div class="col-lg-8 pt-5 " id="rentbuysale">
-                            <div class="mt-5 ul-project-details-sidebar wow animate__fadeInUp">
+                        <div class="col-lg-6 d-flex justify-content-end align-items-end">
+                            <img src="./assets/img/interior-design.png" class="w-75" alt="">
+                        </div>
+                        <div class="d-none col-lg-6 pt-5 h-100  position-relative">
+                            <h2 class="pt-5 "><span>Connect</span> with Our Team of Experts</h2>
+                            <p>Connect our team of excellence-driven experts today to bring your project to life.</p>
+                            <div class="d-flex justify-content-between align-items-center col-6">
+                                <div><span>1234567890</span></div>
+                                <div><span>abc@gmail.com</span></div>
+                            </div>
+                            <div class="bg-dark text-white mt-3 p-5 rounded">
+                                <h5 class="">Want to join <br> our talented team?</h5>
+                                <p class="">VISIT OUR JOB BOARD ></p>
+                                <img src="./assets/img/interior-design.png" class="position-absolute" width="200"
+                                    style="bottom: 0px; right: 0px;" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row gy-5">
+                        <div class="col-lg-6 pt-5 h-100  position-relative">
+                            <h2 class="pt-5 "><span>Connect</span> with Our Team of Experts</h2>
+                            <p>Connect our team of excellence-driven experts today to bring your project to life.</p>
+                            <div class="d-flex justify-content-between align-items-center col-6">
+                                <div><span>1234567890</span></div>
+                                <div><span>abc@gmail.com</span></div>
+                            </div>
+                            <div class="bg-dark text-white mt-3 p-5 rounded">
+                                <h5 class="">Want to join <br> our talented team?</h5>
+                                <p class="">VISIT OUR JOB BOARD ></p>
+                                <img src="./assets/img/interior-design.png" class="position-absolute" width="200"
+                                    style="bottom: 0px; right: 0px;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt-5 " id="rentbuysale">
+                            <div class="bg-dark text-light mt-5 ul-project-details-sidebar wow animate__fadeInUp">
                                 <h3 class="ul-project-details-sidebar-title">Rent - Buy - Sale</h3>
 
                                 <form action="#" class="ul-project-details-owner-contact-form">
