@@ -4083,6 +4083,15 @@ button {
   font-size: clamp(13px, 0.84vw, 16px);
 }
 
+.bg-dark.ul-project-details-review-form-wrapper input,
+.bg-dark.ul-project-details-review-form-wrapper textarea,
+.bg-dark.ul-project-details-review-form-wrapper select,
+.bg-dark.ul-project-details-review-form-wrapper .ss-main {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #000;
+  background-color: #fff;
+}
+
 .ul-project-details-review-form-wrapper .ss-content {
   border-radius: 15px;
 }
