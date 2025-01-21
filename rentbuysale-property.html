@@ -126,13 +126,14 @@
 
                 <!-- body -->
                 <div class="ul-project-details-body">
-                    <div class="row gy-5">
+                    <div class="row my-5">
                         <div class="col-lg-6 h-100  position-relative">
                             <h2 class=" "><span>Connect</span> with Our Team of Experts</h2>
                             <p>Connect our team of excellence-driven experts today to bring your project to life.</p>
                             <br>
                             <div><a href="tel:+918597978485">+91 8597978485</a></div>
                             <div><a href="mailto:infokalpurush@yahoo.com">infokalpurush@yahoo.com</a></div>
+                            <br>
                             <div class="bg-dark text-white mt-3 p-5 rounded">
                                 <h5 class="">Want to join <br> our talented team?</h5>
                                 <p class="">VISIT OUR JOB BOARD ></p>
@@ -140,25 +141,58 @@
                                     style="bottom: 0px; right: 0px;" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-6 " id="rentbuysale">
-                            <div class="bg-dark text-light ul-project-details-sidebar wow animate__fadeInUp">
-                                <h3 class="ul-project-details-sidebar-title">Rent - Buy - Sale</h3>
+                        <div class="col-lg-6">
+                            <div
+                                class="bg-dark  ul-project-details-block ul-project-details-sidebar ul-project-details-review-form-wrapper wow animate__fadeIn">
+                                <h3 class="ul-project-details-title  text-light ">Rent-Buy-Sale Property</h3>
+                                <form class="ul-project-details-review-form wow animate__fadeInUp">
 
-                                <form action="#" class="ul-project-details-owner-contact-form">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" placeholder="Name*">
+                                    <div class="row row-cols-2 row-cols-xxs-1 ul-bs-row">
+                                        <div class="form-group">
+                                            <input type="text" name="review-name" id="review-name" placeholder="Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="number" name="review-phone" id="review-phone"
+                                                placeholder="Phone">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" name="review-email" id="review-email"
+                                                placeholder="Email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="location" name="review-location" id="review-location"
+                                                placeholder="Location">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="review-highlight-point">
+                                                <select name="highlight-point" id="highlight-point">
+                                                    <option value="1">Property Type</option>
+                                                    <option value="2">Residential Property</option>
+                                                    <option value="3">Commercial Property</option>
+                                                    <option value="4">Hospitality Property</option>
+                                                    <option value="4">Transferable Development Rights (TDR)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="number" name="expected-price" id="expected-price"
+                                                placeholder="Expected Price">
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <textarea name="review-message" id="review-message"
+                                                placeholder="Description Box"></textarea>
+                                        </div>
                                     </div>
+
                                     <div class="form-group">
-                                        <input type="tel" name="phone" id="phone" placeholder="Phone*">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" placeholder="Email*">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button class="ul-btn">Submit Now</button>
+                                        <button type="submit" class="ul-btn"><i class="flaticon-house-1"></i> Submit
+                                            Property</button>
                                     </div>
                                 </form>
                             </div>
