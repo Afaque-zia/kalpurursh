@@ -98,7 +98,7 @@ ul {
 }
 
 input {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 input:focus,
@@ -2648,6 +2648,11 @@ button {
   z-index: 1;
 }
 
+.form-section {
+  position: relative;
+  z-index: 1;
+}
+
 @media screen and (max-width: 991px) {
   .ul-testimonial {
     padding-bottom: 0;
@@ -2668,6 +2673,30 @@ button {
   z-index: -1;
   background: url("../img/testimonial-bg.jpg") no-repeat center center/cover fixed;
   opacity: 10%;
+}
+
+.form-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 10%;
+}
+
+.form-section1 {
+  background-color: transparent;
+}
+
+.form-section1::before {
+  background: url("../img/form-section1.jpg") no-repeat center center/cover fixed;
+}
+
+.form-section2 {
+  background-color: var(--ul-secondary);
+}
+
+.form-section2::before {
+  background: url("../img/form-section2.jpg") no-repeat center center/cover fixed;
 }
 
 .ul-testimonial-img {
