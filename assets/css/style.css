@@ -2692,7 +2692,7 @@ button {
 }
 
 .form-section2 {
-  background-color: var(--ul-secondary);
+  background-color: #f3f3f3;
 }
 
 .form-section2::before {
